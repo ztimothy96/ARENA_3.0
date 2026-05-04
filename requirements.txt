@@ -1,8 +1,8 @@
-# PyTorch with CUDA support
---extra-index-url https://download.pytorch.org/whl/cu118
-torch
-torchvision
-torchaudio
+# PyTorch with CUDA support (pinned to cu124 for CUDA 12.4 driver compatibility)
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
 
 # ML & DL
 huggingface_hub
